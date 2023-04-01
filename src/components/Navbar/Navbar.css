@@ -1,0 +1,36 @@
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: lime;
+    height: 7rem;
+}
+
+.box{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem;
+    background-color: lime;
+    gap: 10rem;
+    font-size: 1.5rem;
+    height: 7rem;
+}
+
+.manage{
+    display: flex;
+    justify-content: flex-start;
+    gap: 3rem;
+    padding-right: 2rem;
+}
+
+.manage > a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo{
+    width: 7rem;
+    border-radius: 50%;
+}

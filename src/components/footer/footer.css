@@ -1,0 +1,22 @@
+.footer{
+    background-color: #0E2229;
+    display: flex;
+    justify-content: space-around;
+    height: 25vh;
+    color: #fff;
+}
+
+.logo-footer{
+    width: 15rem;
+}
+
+.sub{
+    display: flex;
+    flex-direction: column;
+    gap:1.5rem;
+    margin-top:2rem;
+}
+
+h3{
+    margin-top: 2rem;
+}
