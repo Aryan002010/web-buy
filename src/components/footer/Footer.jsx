@@ -31,7 +31,7 @@ function Footer() {
       </div>
 
       <div className="footer-developers">
-        <Link to=''>
+        <Link to='https://github.com/MoonLightDotExe/web-buy'>
           <h3>Development</h3>
         </Link>
       </div>
