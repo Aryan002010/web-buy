@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import { BiBasket } from 'react-icons/bi';
 import { BiUser } from 'react-icons/bi';
@@ -11,13 +12,13 @@ function Navbar() {
     <nav className='navigation'>
       <div className='box'>
         <div className='logo-box'>
-          <a href='/'>
+          <Link to='/home'>
             <img
               src={logo}
               alt='logo'
               className='logo'
             />
-          </a>
+          </Link>
         </div>
         <div className='home-nav'>HOME</div>
         <div className='about'>ABOUT</div>
@@ -25,25 +26,25 @@ function Navbar() {
       </div>
 
       <div className='manage'>
-        <a
-          href='/cart'
+        <Link
+          to='/cart'
           className='cart-icon'
         >
           <BiBasket
             size={50}
             className='icon'
           />
-        </a>
+        </Link>
 
-        <a
-          href='/user'
+        <Link
+          to='/user'
           className='user-icon'
         >
           <BiUser
             size={50}
             className='icon'
           />
-        </a>
+        </Link>
       </div>
     </nav>
   );

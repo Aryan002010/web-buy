@@ -5,6 +5,9 @@ import Navbar from './components/Navbar/Navbar.jsx';
 import Footer from './components/footer/Footer.jsx';
 import Cart from './pages/Cart/Cart';
 import User from './pages/User/User.jsx';
+import LoggedIn from './pages/loggedIn/LoggedIn.jsx';
+import Checkout from './pages/Checkout/Checkout.jsx';
+import Confirmed from './pages/Confirmed/Confirmed.jsx';
 
 import './App.css';
 
@@ -16,7 +19,7 @@ function App() {
 
         <Routes>
           <Route
-            path='/'
+            path='/home'
             element={<Home />}
           >
             {' '}
@@ -26,8 +29,20 @@ function App() {
             element={<Cart />}
           />
           <Route
-            path='/user'
+            path='/'
             element={<User />}
+          />
+          <Route
+            path='/checkout'
+            element={<Checkout />}
+          />
+          <Route
+            path='/success'
+            element={<LoggedIn />}
+          />
+          <Route
+            path='/confirmed'
+            element={<Confirmed />}
           />
         </Routes>
 

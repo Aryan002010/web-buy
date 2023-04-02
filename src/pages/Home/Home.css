@@ -10,3 +10,7 @@
   grid-column-gap: 7rem;
   justify-content: center;
 }
+
+li {
+  list-style: none;
+}
