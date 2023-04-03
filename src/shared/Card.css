@@ -50,3 +50,8 @@
   display: flex;
   margin: 0.5rem;
 }
+
+.btn:active {
+  background-color: #008404;
+  transition: all 0.25s;
+}
