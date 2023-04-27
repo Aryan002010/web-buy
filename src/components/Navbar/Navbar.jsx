@@ -20,8 +20,8 @@ function Navbar() {
             />
           </Link>
         </div>
-        <div className='home-nav'>HOME</div>
-        <div className='about'>ABOUT</div>
+        <Link to='/home'><div className='home-nav'>HOME</div></Link>
+        <Link to='/about'> <div className='about'>ABOUT</div> </Link>
         <div className='track'>TRACK</div>
       </div>
 

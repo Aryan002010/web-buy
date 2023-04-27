@@ -9,6 +9,7 @@ import LoggedIn from './pages/loggedIn/LoggedIn.jsx';
 import Checkout from './pages/Checkout/Checkout.jsx';
 import Confirmed from './pages/Confirmed/Confirmed.jsx';
 import About from './pages/About/About.jsx';
+import Personal from './pages/Personal/Personal.jsx';
 
 import './App.css';
 
@@ -48,6 +49,10 @@ function App() {
           <Route
             path='/about'
             element={<About />}
+          />
+          <Route
+            path='/user'
+            element={<Personal />}
           />
         </Routes>
 
